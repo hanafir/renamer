@@ -5,10 +5,11 @@ This is a APK MOD Indonesia Renamer bot ✍ by <a href='https://t.me/hanafii'>bi
 
 I can rename ✍ with custom thumbnail and upload as video/file
 
-**Tersedia :
+**
 - APKMOD
 - Salam Sehat , Santuy , Ceriaa , Cerita Bareng
-- Selamat Berkarya 🙏**
+- Selamat Berkarya 🙏
+**
 
 Type /help for more details."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
