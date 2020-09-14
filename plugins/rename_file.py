@@ -53,7 +53,7 @@ async def rename_doc(bot, update):
                 )
             )
             return
-        description =Translation.CUSTOM_CAPTION_UL_FILE
+        description =Translation.CUSTOM_CAPTION_UL_FILE+file_name
         download_location = Config.DOWNLOAD_LOCATION + "/"
         a = await bot.send_message(
             chat_id=update.chat.id,
@@ -130,7 +130,7 @@ async def rename_doc(bot, update):
             except:
                 pass
             await bot.edit_message_text(
-                text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG.file_name,
+                text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG,
                 chat_id=update.chat.id,
                 message_id=a.message_id,
                 disable_web_page_preview=True
