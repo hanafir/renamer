@@ -45,15 +45,15 @@ async def rename_video(bot, update):
     TRChatBase(update.from_user.id, update.text, "rename")
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
-        if len(file_name) > 64:
+        if len(file_name) > 120:
             await update.reply_text(
                 Translation.IFLONG_FILE_NAME.format(
-                    alimit="64",
+                    alimit="120",
                     num=len(file_name)
                 )
             )
             return
-        description = Translation.CUSTOM_CAPTION_UL_FILE
+        description = FILE_NAME
         download_location = Config.DOWNLOAD_LOCATION + "/"
         b = await bot.send_message(
             chat_id=update.chat.id,
