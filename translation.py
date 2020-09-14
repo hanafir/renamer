@@ -9,10 +9,10 @@ Type /help for more details."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "There is no upgrade plan till now it will be added in future"
-    DOWNLOAD_START_VIDEO = "Downloading to my server.....📥"
-    DOWNLOAD_START = "Downloading to my server.....📥"
-    UPLOAD_START_VIDEO = "Uploading as video.....📤"
-    UPLOAD_START = "Uploading as File.....📤"
+    DOWNLOAD_START_VIDEO = "Sedang Mengunduh.....📥"
+    DOWNLOAD_START = "Sedang Mengunduh.....📥"
+    UPLOAD_START_VIDEO = "Sedang Mengunggah.....📤"
+    UPLOAD_START = "Sedang Mengunggah.....📤"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
     AFTER_SUCCESSFUL_UPLOAD_MSG = " @apkmodindo_bot | @Editor_Indonesia "
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
@@ -22,7 +22,7 @@ Type /help for more details."""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = " @apkmodindo_bot | @Editor_Indonesia "
+    CUSTOM_CAPTION_UL_FILE = ""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Hai <b><i>{}</i></b>, 
@@ -53,7 +53,7 @@ Free users only 1 request per 30 minutes.
 The given file name has {num} characters.
 
 <b>Essays Not allowed in Telegram file name!</b>
-©️ <code>@renamer23_bot</code>
+©️ <code>@apkmodindo_bot</code>
 Please short your file name and try again!"""
 
     About = """Hi __{}__,
