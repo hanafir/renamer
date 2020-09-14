@@ -40,6 +40,7 @@ python bot.py
 ```
 
 - For FeedBack and Suggestions, please feel free to say in [@anonymousbotdiscussion](https://telegram.dog/anonymousbotdiscussion)
+- For FeedBack and Suggestions, please feel free to say in [@Editor_Indonesia](https://telegram.dog/Editor_Indonesia)
 
 #### LICENSE
 - GPLv3
