@@ -53,7 +53,7 @@ async def rename_video(bot, update):
                 )
             )
             return
-        description = FILE_NAME
+        description =Translation.AFTER_SUCCESSFUL_UPLOAD_MSG
         download_location = Config.DOWNLOAD_LOCATION + "/"
         b = await bot.send_message(
             chat_id=update.chat.id,
@@ -130,7 +130,7 @@ async def rename_video(bot, update):
             except:
                 pass
             await bot.edit_message_text(
-                text=Translation.AFTER_SUCCESSFUL_UPLOAD_MSG,
+                text=FILE_NAME,
                 chat_id=update.chat.id,
                 message_id=b.message_id,
                 disable_web_page_preview=True
