@@ -130,7 +130,7 @@ async def rename_doc(bot, update):
             except:
                 pass
             await bot.edit_message_text(
-                text=FILE_NAME,
+                text=FILE_NAME + Translation.CUSTOM_CAPTION_UL_FILE,
                 chat_id=update.chat.id,
                 message_id=a.message_id,
                 disable_web_page_preview=True
