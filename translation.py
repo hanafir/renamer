@@ -20,7 +20,7 @@ Type /help for more details."""
     UPLOAD_START_VIDEO = "Sedang Mengunggah.....📤"
     UPLOAD_START = "Sedang Mengunggah.....📤"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = " <a href="https://t.me/apkmodindo_bot" class="w3-btn w3-black">APK MOD INDO</a><a href="https://t.me/Editor_Indonesia" class="w3-btn w3-black">APK MOD INDONESIA GROUP</a> "
+    AFTER_SUCCESSFUL_UPLOAD_MSG = " <i><a href='https://t.me/apkmodindo_bot'>APK MOD INDO</a><a href='https://t.me/Editor_Indonesia'>APK MOD INDONESIA GROUP</a></i> "
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://t.me/anonymousbotdiscussion'>Ns Bot Supporters</a>"
@@ -67,7 +67,7 @@ Please short your file name and try again!"""
 
 **🧰 Framework:** Pyrogram
 
-**👨‍💻 Developer:** [Anonymous](https://t.me/hanafii)
+**👨‍💻 Developer:** [hanafii](https://t.me/hanafii)
 
 **👥 Group:** [APK MOD Indonesia](https://t.me/Editor_Indonesia)
 
