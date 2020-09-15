@@ -1,5 +1,4 @@
 # TG-RENAMER-BOT-APKMOD_Indonesia
-## Rename Bot - Clone of  [Renamer⚡](https://t.me/renamer23_bot)
 ---
 
 An Open Source Rename Telegram RoBot
@@ -39,7 +38,6 @@ cp sample_config.py config.py
 python bot.py
 ```
 
-- For FeedBack and Suggestions, please feel free to say in [@anonymousbotdiscussion](https://telegram.dog/anonymousbotdiscussion)
 - For FeedBack and Suggestions, please feel free to say in [@Editor_Indonesia](https://telegram.dog/Editor_Indonesia)
 
 #### LICENSE
