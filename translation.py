@@ -20,7 +20,7 @@ Type /help for more details."""
     UPLOAD_START_VIDEO = "Sedang Mengunggah.....📤"
     UPLOAD_START = "Sedang Mengunggah.....📤"
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations.I can't do anything for that 🤷‍♂️."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thanks for using this BOT | Credits ©️ <code>@apkmodindo_bot | @Editor_Indonesia</code> </b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "<b> Thanks for using this BOT | Credits ©️ @apkmodindo_bot | @Editor_Indonesia </b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://t.me/anonymousbotdiscussion'>Ns Bot Supporters</a>"
@@ -28,7 +28,7 @@ Type /help for more details."""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = " | <b>Join for more | @Editor_Indonesia | APK MOD INDONESIA</b> | "
+    CUSTOM_CAPTION_UL_FILE = " <b><a href='https://t.me/hanafii'>Join for More</a></b> "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     HELP_USER = """Hai <b><i>{}</i></b>, 
@@ -41,7 +41,7 @@ I am APK MOD Indonesia Renamer bot ✍ by <a href='https://t.me/hanafii'>big pap
 
 3. Reply to that message with <code>/rename new name.extension</code>. with custom thumbnail support.\n(upload as file)
 
-4. Reply to that message with <code>/rename_vidoe new name.extension</code>. with custom thumbnail support.\n(uploading as Video)
+4. Reply to that message with <code>/rename_video new name.extension</code>. with custom thumbnail support.\n(uploading as Video)
 
    
 <b>Thanks to <i><a href="https://t.me/hanafii">Hanafi 👨‍🏫</a></i> for his build into APK MOD Indo Bot Renamer. check /about for source code</b>
